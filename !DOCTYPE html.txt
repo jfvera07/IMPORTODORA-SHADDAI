@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Importadora El Shaddai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Importadora El Shaddai</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="hero">
+            <h2>Tu proveedor confiable en productos de belleza</h2>
+            <p>Especialistas en productos para peinados afro: kanekalon, crochet y más.</p>
+        </section>
+        <section id="productos" class="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="galeria">
+                <div class="producto">
+                    <img src="https://via.placeholder.com/300x300" alt="Kanekalon">
+                    <p>Kanekalon de alta calidad</p>
+                </div>
+                <div class="producto">
+                    <img src="https://via.placeholder.com/300x300" alt="Crochet">
+                    <p>Crochet premium</p>
+                </div>
+                <div class="producto">
+                    <img src="https://via.placeholder.com/300x300" alt="Extensiones">
+                    <p>Extensiones de lujo</p>
+                </div>
+            </div>
+        </section>
+        <section id="nosotros" class="nosotros">
+            <h2>¿Quiénes Somos?</h2>
+            <p>En Importadora El Shaddai nos dedicamos a ofrecer productos de belleza exclusivos para resaltar la belleza afro. Con años de experiencia, somos la elección número uno de distribuidores y salones en Colombia.</p>
+        </section>
+        <section id="contacto" class="contacto">
+            <h2>Contáctanos</h2>
+            <p>¿Tienes preguntas o quieres trabajar con nosotros? Escríbenos.</p>
+            <form>
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2024 Importadora El Shaddai - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
